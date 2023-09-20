@@ -8,7 +8,7 @@ spec:
       securityContext:
         runAsUser: 0
       containers:
-      - image: <YourImageRepository>/acmeair-driver:latest
+      - image: quay.io/dbhagava/quarkus/acmeair-driver:latest
         command:  ["./driver.sh"]
         imagePullPolicy: Always
         name: load-generator-jmeter

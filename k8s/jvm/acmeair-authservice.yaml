@@ -21,7 +21,7 @@ spec:
           value: acmeair-nginx-service/customer
         - name: SECURE_SERVICE_CALLS
           value: 'true'
-        image: <YourImageRepository>/acmeair-authservice-quarkus:jvm
+        image: quay.io/dbhagava/quarkus/acmeair-authservice-quarkus-jvm:latest
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

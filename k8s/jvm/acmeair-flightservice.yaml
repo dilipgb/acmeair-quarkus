@@ -21,7 +21,7 @@ spec:
           value: acmeair-flight-db
         - name: SECURE_SERVICE_CALLS
           value: 'true'
-        image: <YourImageRepository>/acmeair-flightservice-quarkus:jvm
+        image: quay.io/dbhagava/quarkus/acmeair-flightservice-quarkus-jvm:latest
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

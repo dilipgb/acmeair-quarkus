@@ -27,7 +27,7 @@ spec:
           value: 'true'
         - name: SECURE_SERVICE_CALLS
           value: 'true'
-        image: <YourImageRepository>/acmeair-bookingservice-quarkus:jvm
+        image: quay.io/dbhagava/quarkus/acmeair-bookingservice-quarkus-jvm:latest
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

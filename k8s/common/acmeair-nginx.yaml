@@ -17,7 +17,7 @@ spec:
         name: acmeair-nginx-deployment
     spec:
       containers:
-      - image: <YourImageRepository>/acmeair-nginx
+      - image: quay.io/dbhagava/acmeair-nginx:latest
         imagePullPolicy: Always
         name: nginx
         ports:
