@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - env:
-        image: quay.io/dbhagava/quarkus/acmeair-mainservice-quarkus-jvm:latest
+        image: quay.io/dbhagava/quarkus/acmeair-mainservice-quarkus-jvm:latest  
         imagePullPolicy: Always
         name: acmeair-mainservice-quarkus-jvm
         ports:
